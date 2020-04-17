@@ -1,0 +1,25 @@
+/*Changes background and adds parallax scrolling effect, retrieved from https://www.w3schools.com/howto/howto_css_parallax.asp*/
+body {
+  background: url("http://getwallpapers.com/wallpaper/full/4/a/7/188752.jpg") 
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/*Changes all text in a class="white" div to white.*/
+.white {
+  color: white;
+}
+
+/*Makes all jumbotrons black and slightly transparent, also changes all jumbotron text to white.*/
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.center {
+  float: right;
+  font-size: 18px;
+}
